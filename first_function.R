@@ -52,7 +52,7 @@ rm.novalue <- function(x, field)
 
 # This function provides fuzzy matching of unique values.
 # Sometimes it is possible the a data entery operator writes same name with two different spellings, this function will be helpful
-# in such cases but might require bit modigictions.
+# in such cases but might require bit modifictions.
 
 get.fvalues <- function(x, y, z, xfield, yfield, zfield, d = 0.1)
 {	
